@@ -1,0 +1,7 @@
+total=0
+n=int(input())
+for i in range (n):
+    num=int(input())
+    total =total+num
+average =total/n
+print("The average is: {:.2f}".format(average)) 
